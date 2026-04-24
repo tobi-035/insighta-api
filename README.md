@@ -11,7 +11,7 @@ Download from [nodejs.org](https://nodejs.org) — version 18 or higher.
 
 ### 2. Clone the repo and install dependencies
 ```bash
-git clone https://github.com/your-username/insighta-api.git
+git clone https://github.com/tobi-035/insighta-api.git
 cd insighta-api
 npm install
 ```
@@ -22,7 +22,7 @@ cp .env.example .env
 ```
 Open `.env` and fill in your database URL:
 ```
-DATABASE_URL=postgresql://user:password@host:5432/dbname
+DATABASE_URL=postgresql://neondb_owner:npg_5agkyqH0SKun@ep-plain-bird-ana30r55-pooler.c-6.us-east-1.aws.neon.tech/neondb
 PORT=3000
 NODE_ENV=development
 ```
